@@ -1,4 +1,4 @@
-/* @media (max-width:991px){
+@media (max-width:991px){
 
   p{
     font-size: 1.2rem;
@@ -175,99 +175,5 @@ html{
 
 }
 
-   */
-@media (max-width: 991px) {
-    .nav-menu {
-        display: none;
-    }
+  
 
-    .bars {
-        display: block;
-    }
-
-    #name-social-container h1 {
-        font-size: 2.5rem;
-    }
-
-    .dropdown-list {
-        display: block;
-        position: absolute;
-        right: 10px;
-        top: 50px;
-        background-color: #004e92;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .dropdown-list ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .dropdown-list li {
-        padding: 10px;
-        text-align: right;
-    }
-
-    .dropdown-list li a {
-        color: white;
-        text-decoration: none;
-    }
-
-    .dropdown-menu:hover .dropdown-list {
-        display: block;
-    }
-}
-
-@media (max-width: 767px) {
-    #name-social-container h1 {
-        font-size: 2rem;
-    }
-
-    .timeline-box {
-        width: 100%;
-        left: 0 !important;
-        transform: none;
-    }
-
-    .timeline-box:nth-child(even) {
-        left: 0 !important;
-        transform: none;
-    }
-
-    #timeline-divider {
-        display: none;
-    }
-
-    #contact-form-container,
-    #my-details-container {
-        width: 100%;
-        margin: 0;
-    }
-}
-
-@media (max-width: 479px) {
-    #name-social-container h1 {
-        font-size: 1.5rem;
-    }
-
-    .skill-progress {
-        width: 100%;
-    }
-
-    #skills-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #contact-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #portfolio-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
